@@ -11,5 +11,14 @@
     <url-pattern>/home</url-pattern>
   </servlet-mapping>
   <display-name>pizzaParty</display-name>
-
+  <servlet>
+    <description></description>
+    <display-name>OrderPageServlet</display-name>
+    <servlet-name>OrderPageServlet</servlet-name>
+    <servlet-class>com.pizza.OrderPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderPageServlet</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
 </web-app>

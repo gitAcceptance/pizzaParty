@@ -31,14 +31,14 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<!DOCTYPE html>\r\n" + 
 				"<html>\r\n" + 
-				"<body>\r\n" + 
+				"<body background=\"https://s1.1zoom.me/big0/618/Fast_food_Pizza_486171.jpg\">\r\n" + 
 				"\r\n" + 
-				"<h2>Pizza Party</h2>\r\n" + 
+				"<h2 style=\"color:white\">Pizza Party</h2>\r\n" + 
 				"");
 		if (request.getParameter("isError") != null) {
 			out.println("Please login first");
 		}
-		out.println("<form action=\"home\">\r\n" + 
+		out.println("<form action=\"home\" style=\"color:white\">\r\n" + 
 				"  Username:<br>\r\n" + 
 				"  <input type=\"text\" name=\"username\">\r\n" + 
 				"  <br>\r\n" + 

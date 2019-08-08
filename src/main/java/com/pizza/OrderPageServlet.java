@@ -30,6 +30,14 @@ public class OrderPageServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
+		
+		out.println("<html>");
+		
+		
+		
+		
+		out.println("</html>");
+		
 		// List l = dao.getOrders(request.getParameter("username");
 		for (Order o : list ) {
 			out.println(o);
